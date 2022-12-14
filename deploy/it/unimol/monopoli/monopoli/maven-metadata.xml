@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>it.unimol.monopoli</groupId>
+  <artifactId>monopoli</artifactId>
+  <versioning>
+    <release>1.0</release>
+    <versions>
+      <version>1.0</version>
+    </versions>
+    <lastUpdated>20221214142713</lastUpdated>
+  </versioning>
+</metadata>
