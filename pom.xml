@@ -132,7 +132,6 @@
           </reportSet>
         </reportSets>
       </plugin>
-      <plugins>
       <plugin>
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
@@ -142,7 +141,6 @@
           <xmlOutputDirectory>target/site</xmlOutputDirectory>
         </configuration>
       </plugin>
-    </plugins>
     </plugins>
   </reporting>
 </project>
