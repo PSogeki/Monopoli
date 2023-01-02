@@ -60,7 +60,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>lib/</classpathPrefix>
-                <mainClass>target.classes.it.unimol.monopoli.MainGui</mainClass>
+                <mainClass>src.main.java.it.unimol.monopoli.MainGui</mainClass>
               </manifest>
             </archive>
           </configuration>
