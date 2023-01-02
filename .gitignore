@@ -1,4 +1,4 @@
 /target
-/.vscode
 /deploy
 *.sr
+*.json
