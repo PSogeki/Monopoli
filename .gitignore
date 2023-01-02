@@ -1,0 +1,4 @@
+/target
+/deploy
+*.sr
+*.json
