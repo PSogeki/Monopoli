@@ -39,7 +39,7 @@ public class GamePanel extends JPanel {
         this.setLayout(null);
 
         try {
-            bgImage = ImageIO.read(new File("src\\main\\java\\it\\unimol\\monopoli\\images\\sfondo800.jpg"));
+            bgImage = ImageIO.read(new File("images\\sfondo800.jpg"));
         } catch (IOException e) {
             JOptionPane.showMessageDialog(
                 null, 
