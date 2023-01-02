@@ -60,7 +60,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>target/classes/</classpathPrefix>
-                <mainClass>it.unimol.monopoli.MainUI</mainClass>
+                <mainClass>it.unimol.monopoli.MainGui</mainClass>
               </manifest>
             </archive>
           </configuration>
