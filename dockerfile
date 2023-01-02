@@ -10,4 +10,4 @@ RUN mvn clean package
 
 WORKDIR target/
 
-CMD ["java","-jar","monopoli-1.0-SNAPSHOT.jar"]
+CMD ["java","-jar","monopoli-1.0.jar"]
