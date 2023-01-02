@@ -35,7 +35,7 @@ public class MainPanel extends JPanel{
         this.setLayout(null);
 
         try {
-            bgImage = ImageIO.read(new File("src\\main\\java\\it\\unimol\\monopoli\\images\\screen500.jpg"));
+            bgImage = ImageIO.read(new File("images\\screen500.jpg"));
         } catch (IOException e) {
             JOptionPane.showMessageDialog(
                 null, 

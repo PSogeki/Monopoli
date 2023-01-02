@@ -25,7 +25,7 @@ public class GameBoard extends JPanel{
 
         this.setLayout(null);
 
-        imageLabel = new JLabel(new ImageIcon("src\\main\\java\\it\\unimol\\monopoli\\images\\Tabellone500.jpg"));
+        imageLabel = new JLabel(new ImageIcon("images\\Tabellone500.jpg"));
         imageLabel.setBounds(0,0,500,500);
     }
 
