@@ -10,6 +10,8 @@ WORKDIR Monopoli/
 
 RUN mvn clean package
 
+ENV grep -i display
+
 WORKDIR target/
 
 CMD ["java","-jar","monopoli-1.0.jar"]

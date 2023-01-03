@@ -1,5 +1,5 @@
 version: '1.0'
 services:
   monopoli:
-    image: paolodibiase/monopoli:latest
+    build: "."
     restart: always
