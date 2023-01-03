@@ -10,7 +10,7 @@ WORKDIR Monopoli/
 
 RUN mvn clean package
 
-ENV grep -i display
+ENV DISPLAY=:0.0
 
 WORKDIR target/
 
