@@ -63,10 +63,11 @@ public class Game implements Serializable{
      */
     public static boolean searchFile() throws IOException {
         try (FileInputStream f = new FileInputStream("Game.sr")) {
-        } catch (FileNotFoundException e) {
+            return true;
+        } 
+        catch (FileNotFoundException e) {
             return false;
         }
-        return true;
     }
 
     /**

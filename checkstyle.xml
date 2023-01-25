@@ -1,7 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE module SYSTEM 
+    "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
 <module name="Checker">
-  <module name="JavadocPackage"/>
   <module name="TreeWalker">
-    <module name="AvoidStarImport"/>
     <module name="ConstantName"/>
     <module name="EmptyBlock"/>
   </module>
